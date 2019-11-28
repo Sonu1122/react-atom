@@ -1,0 +1,112 @@
+
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+ .navbar-brand{margin-left: 10px;}
+ .navbar{padding-bottom: 5px;
+    padding-top: 5px;}
+.navbar-nav{ border-top: 1px solid #ccc; margin-top: 5px; margin-bottom: 30px; }
+.navbar-nav .nav-item{ margin: 0; }
+.navbar-nav .nav-link{padding-right: .1rem;padding-left: .1rem;border-bottom: 1px solid #ccc;}
+.navbar-nav .nav-item.active .nav-link{ border-bottom: 1px solid #ff6700;}
+.navbar-toggleable-md .navbar-nav .nav-link{padding-right: .1rem;padding-left: .1rem;}
+.navbar-nav .nav-link:hover{border-bottom: 1px solid #ff6700;}
+
+.addcustomer{position: fixed; top: 8px; margin: 0; right: 81px; text-indent: -9999px;background-position:center center}
+.main-container{margin-top: 50px;}
+.right-section{padding: 20px 20px}
+.row-text{ float: left; }
+.search-section{ padding:15px 15px; }
+.searvedList{ padding:15px 15px; }
+.modal-content{ width: 98%; }
+.gridHeading .row div{padding-left: 5px; padding-right: 5px;}
+.gridBody .row div{padding-left: 5px; padding-right: 5px;}
+}
+
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+@media only screen and (max-width: 767px) {
+.navbar-brand{margin-left:0px; margin-right:0px;} 
+.navbar{padding-bottom: 5px;
+    padding-top: 5px;}
+.navbar-nav{ border-top: 1px solid #ccc; margin-top: 5px; margin-bottom: 30px;  }
+.navbar-nav .nav-item{ margin: 0; text-align: center; }
+.navbar-nav .nav-link{padding-right: .1rem;
+    padding-left: .1rem;
+    border-bottom: 1px solid #ccc;}
+.navbar-nav .nav-item.active .nav-link{ border-bottom: 1px solid #ff6700;}
+.navbar-toggleable-md .navbar-nav .nav-link{padding-right: .1rem;padding-left: .1rem;}
+.navbar-nav .nav-link:hover{border-bottom: 1px solid #ff6700;}
+.addcustomer{position: fixed; top: 8px; margin: 0; right: 81px; text-indent: -9999px; background-position:center center;}
+.main-container{margin-top: 50px;}
+.left-navigation{ width: 100%;position: static; height: auto; box-shadow: none; }
+ul.leftnav{margin-top: 0; display: flex; border-bottom: 1px solid #ccc;}
+ul.leftnav li{flex:1;}
+ul.leftnav li a{ display:block;}
+.right-section{padding: 10px; margin: 0; width: 100%;}
+.action-section .btn.addWalky{margin-left: 0;}
+.walyCounter{margin-bottom: 10px;}
+ .walyCounter{ width: 100%; }
+ .row-text{ float: left; }
+.action-status{ float: left; }
+.action-status li{margin-left:10px;}
+.action-status li:first-child{margin-left: 0;}
+.nameTime{ float: left; }
+.modal-body{ padding: 15px; }
+.radiobox{ margin-bottom: 10px; }
+
+.search-section{ padding:15px 15px; }
+.searvedList{ padding:15px 15px; }
+.right-txt{text-align: left;}
+.loginwrapper{ width: 95%; }
+.innWrapper{padding: 20px 20px 20px}
+.modal-content{ width: 98%; }
+.switchSection{ border-right: 0; width: 100%;text-align: center; margin: 0 auto; float: none; padding-bottom: 5px;}
+.templateBox{padding: 5px 25px 14px; float: left; width: 100%;}
+.sentBtn{ margin-top: 10px; float: right; }
+.chatrow{ margin-bottom: 15px; }
+.gridBody > div > div{ margin-bottom: 10px;}
+.gridlabel{ display: block; }
+.gridHeading{ display: none; }
+.group{ padding: 5px 0; }
+
+
+}
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+ .action-section .btn.addWalky{margin-left: 10px;}
+
+ .walyCounter{ width: auto; }
+ .action-status{ float: right; }
+ 	 
+ 
+	
+}
+
+ 
